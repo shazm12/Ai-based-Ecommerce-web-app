@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "Lenovo Legion 5 Pro",
+    "category": "Affordable Laptops",
+    "priceCents": 160000,
+    "src": "https://www.notebookcheck.net/uploads/tx_nbc2/LenovoLegion5ProRTX3060__1__01.jpg",
+    "description": "Processor: 5th Gen AMD Ryzen 7 - 5800H | Speed: 3.2 GHz (Base) - 4.4 GHz (Max) | 8 Cores | 16 Threads | 16MB CacheDisplay: 16 QHD (2560x1600) Dolby Vision | Wide Quad with 16:10 Aspect Ratio| IPS Technology | 165 Hz Refresh Rate | 500Nits Brightness | 100% sRGB | VESA DisplayHDR 400 Certified"
+  },
+  {
+    "id": 2,
+    "name": "ASUS TUF Gaming F15",
+    "category": "Affordable Laptops",
+    "priceCents": 210000,
+    "src": "https://i2.wp.com/damelo.com.ng/wetsanso/2021/05/ibht3480pzgjpbde_setting_xxx_0_90_end_2000.png?fit=2000%2C2000&ssl=1",
+    "description": "Processor: 10th Gen Intel Core i5-10300H Processor, 2.5 GHz (8MB Cache, up to 4.5 GHz, 4 Cores, 8 Threads) | Access to over 100 high-quality PC games on Windows 10 | One-month subscription to Xbox Game Pass that’s included with the purchase of your device"
+  },
+  {
+    "id": 3,
+    "name": "ASUS ROG Strix G17",
+    "category": "Premium laptops",
+    "priceCents": 500000,
+    "src": "https://m.media-amazon.com/images/I/71fkB1F3cVL._AC_UY218_.jpg",
+    "description": "Processor: AMD Ryzen 7 5800H, 3.2 GHz Base Speed, Up to 4.4 GHz Max Boost Speed, 8 Cores, 16 Threads, 16MB L3 Cache | Access to over 100 high-quality PC games on Windows 10 | One-month subscription to Xbox Game Pass that’s included with the purchase of your device | Enjoy exclusive member deals and discounts, like up to 20% off games in the Xbox Game Pass library, plus up to 10% off game addons and consumables"
+  },
+  {
+    "id": 4,
+    "name": "MSI Bravo 15",
+    "category": "Premium laptops",
+    "priceCents": 670000,
+    "src": "https://m.media-amazon.com/images/I/71b46EnIzBL._AC_UY218_.jpg",
+    "description": "AMD Ryzen7-4800H processor, upto 4.2 GHzPre-loaded | Windows 10, Home, 64Bit operating system with lifetime validity  | 15.6 FHD (1920*1080), IPS-Level 144Hz Thin Bezel Display"
+  },
+  {
+    "id": 5,
+    "name": "Dell Alienware  m15",
+    "category": "Premium laptops",
+    "priceCents": 750000,
+    "src": "https://m.media-amazon.com/images/I/61m3N4MBaNL._AC_UL320_.jpg",
+    "description": "15.6 FHD (1920 x 1200) 300Hz IPS Display | 100% sRGB color gamut, 1000:1 contrast ratio | NVIDIA GeForce RTX 2060 6GB GDDR6 | up to 5.0 GHz ,10th Gen i7-10750H, 12MB Cache,6 cores"
+  },
+  {
+    "id": 6,
+    "name": "Dell XPS 13",
+    "category": "Premium laptops",
+    "priceCents": 670000,
+    "src": "https://m.media-amazon.com/images/I/61OBvwVHtQL._AC_UY218_.jpg",
+    "description": "1.8GHz 8th gen Intel Core i7 processor | 8GB DDR4 RAM | 256 GB SSD | 13.3-inch screen, Integrated Graphics Graphics"
+  },
+  {
+    "id": 7,
+    "name": "HP Omen",
+    "category": "Affordable Laptops",
+    "priceCents": 500000,
+    "src": "https://m.media-amazon.com/images/I/71dG2zTOI6L._AC_UY218_.jpg",
+    "description": "Operating System: Pre-loaded Windows 10 Home with lifetime validity | Display: 15.6-inch Full HD (1920 x 1080) anti-glare IPS display | 60Hz refresh rate, 250 Nits, 45% NTSC | Graphics & Keyboard: NVIDIA GeForce GTX 1650ti (4 GB GDDR6 dedicated) Graphics | Full-size, island-style mica-silver Backlit Keyboard, 26-Key Rollover Anti-Ghosting Key technology"
+  },
+  {
+    "id": 8,
+    "name": "ASUS ROG Zephyrus",
+    "category": "Affordable Laptops",
+    "priceCents": 480000,
+    "src": "https://m.media-amazon.com/images/I/61f-pIrfGzS._AC_UY218_.jpg",
+    "description": "Processor: AMD Ryzen 7 5800HS Processor, 3.0 GHz Base Speed, Up to 4.3 GHz Max Boost Speed, 8 Cores, 16 Threads, 16MB L3 Cache | Memory: 8GB onboard DDR4 3200MHz Support Up to 24GB with | Storage: 1TB M.2 NVMe PCIe 3.0 SSD | Graphics: Dedicated NVIDIA  GeForce RTX 3050 GDDR6"
+  }
+]

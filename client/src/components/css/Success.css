@@ -1,0 +1,38 @@
+
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.success {
+    display: flex;
+    height: 50vh;
+    width: 60vh;
+    border: 0.5px groove black;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.desp {
+    display: flex;
+    font-family: "Consolas", "Courier New", monospace;
+    font-size: 22px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.button {
+    margin-top: 5vh;
+    box-shadow: 2px 4px 8px #aaa;
+    padding: 10px 15px;
+    background: #f12711;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #d49b1f, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f0b22d, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    
+}

@@ -1,0 +1,49 @@
+.welcome_msg {
+    font-size: 24px;
+    margin-top: -0.8vh;
+    margin-left: 7vh;
+    color:rgb(45, 56, 65);
+
+}
+.comp_name {
+
+    margin-left: 3vh;
+    font-size: 32px;
+    margin-top: 0.5vh;
+    color:antiquewhite
+
+}
+.navbar {
+    height: 6vh;
+    display: flex;
+    flex-direction: row;
+    background: #f953c6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b91d73, #f953c6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b91d73, #f953c6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 2px 4px 8px #aaa;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20vh;
+    margin-left: 100vh;
+    margin-top: 2vh;
+    font-weight: bold;
+    transition: all 0.5s ease-in-out;
+    font-size: 18px;
+    color: rgb(19, 16, 16);
+    
+
+}
+
+.navbar ul li {
+    transition: all 0.5s ease-in-out;
+    text-decoration: underline;
+}
+
+.navbar ul li:hover {
+    color:rgb(235, 249, 255);
+}

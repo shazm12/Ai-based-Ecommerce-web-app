@@ -1,0 +1,72 @@
+GET http://localhost:9000
+
+###
+
+POST http://localhost:9000/api/auth/register
+Content-Type: application/json
+
+
+{
+    "username" : "Shamik",
+    "email" : "shamik@gmail.com",
+    "password": "shamik1234",
+    "phoneno": "+91 9967153442",
+    "address" : "Malad West,Mumbai"
+
+}
+
+###
+
+POST http://localhost:9000/api/auth/login
+Content-Type: application/json
+
+
+{
+    "username" : "Shamik",
+    "password": "shamik1234"
+
+}
+
+###
+
+POST http://localhost:9000/api/order/neworder
+Content-Type: application/json
+
+
+{
+    "username" : "Shamik",
+    "email": "shamik@gmail.com",
+    "cart":[
+        {
+            "itemName": "Dell Alienware  m15",
+            "quantity": "1"
+        },
+        {
+            "itemName": "MSI Bravo 15",
+            "quantity": "1"
+        }        
+    ] ,
+    "address" : "Malad West,Mumbai",
+    "totalamt": "US$11,700.00"
+
+}
+
+###
+POST http://localhost:9000/api/auth/userdetail
+Content-Type: application/json
+
+
+{
+    "username" : "Shamik"
+
+}
+
+###
+POST http://localhost:9000/api/order/orderdetails
+Content-Type: application/json
+
+
+{
+    "username" : "Shamik"
+
+}

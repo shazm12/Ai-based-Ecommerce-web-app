@@ -1,0 +1,23 @@
+.main {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30vh;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    margin-bottom: 5vh;
+    text-shadow: 2px 4px 8px #aaa;
+}
+.wrong {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    font-size: 24px;
+    font-weight: bold;
+}

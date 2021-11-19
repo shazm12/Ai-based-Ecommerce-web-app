@@ -1,0 +1,26 @@
+.main {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 25vh;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    margin-bottom: 5vh;
+    font-weight: bold;
+    text-shadow: 2px 4px 8px #aaa;
+}
+
+.form-c {
+    display: flex;
+    flex-direction: column;
+    width: 30vh;
+    gap: 5vh;
+    margin-bottom: 5vh;
+}
