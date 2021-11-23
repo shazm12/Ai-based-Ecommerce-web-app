@@ -12,6 +12,39 @@ function OrderDetails() {
     const username = cookies.get('username');
 
 
+    const onCancel = (itemId) => {
+
+        let itemFinalId = itemId.substring(0);
+
+        var ans = window.confirm(`Are you sure you want to cancel order no ${itemFinalId}?`);
+        if(ans) {
+
+            axios.post('/api/order/cancelorder', {
+
+                id: itemFinalId
+
+            })
+            .then(msg => {
+
+                console.log(msg);
+                alert("Order Cancelled");
+
+            })
+            .catch(err => {
+                console.log(err);
+                alert("There was some problem in deleting please try again!");
+            })
+
+
+
+        } else {
+
+            alert("Okay reverting back!");
+
+        }
+
+    }
+
     const orderdt = async() => {
 
 
@@ -53,9 +86,12 @@ function OrderDetails() {
                         </div>
                     ))}
 
-
                         <h2>Total Amount : {order.totalamt}</h2>
+                        <div className="buttonWrapper">
+                            <button className="cancelBtn" onClick={() => onCancel(order._id)}>Cancel Order</button>
+                        </div>
                     </div>
+
                 </div>
 
             ))

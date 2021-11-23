@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import StoreItem from "./StoreItem"
 import './css/Store.css'
+import Footer from './Footer'
 import Cookies from 'universal-cookie'
 import { useHistory } from 'react-router-dom'
 
@@ -13,7 +14,7 @@ export default function Store({ items }) {
   const name = cookies.get('username');
   console.log(name);
   const history = useHistory();
-  const namearr = name.split(' ');
+  // const namearr = name.split(' ');
   return (
     <section className="text-gray-700 body-font"  data-testid="storePage">
       <nav className="navbar">
@@ -21,8 +22,8 @@ export default function Store({ items }) {
         <ul>
 
           <li><a href="#" onClick={e => history.push('/orderdetails')}>My Orders</a></li>
-          <li><a href="#">Log Out</a></li>
-          <h1 className="welcome_msg">Welcome, {namearr[0]} </h1>
+          <li><a href="#" onClick={e => history.push('/')}>Log Out</a></li>
+          <h1 className="welcome_msg">Welcome, {name} </h1>
         </ul>
 
 
@@ -36,6 +37,7 @@ export default function Store({ items }) {
           ))}
         </div>
       </div>
+      <Footer />
     </section>
   )
 }

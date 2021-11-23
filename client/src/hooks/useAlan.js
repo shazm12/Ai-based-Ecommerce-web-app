@@ -2,19 +2,23 @@ import { useEffect, useState, useCallback } from "react"
 import alanBtn from "@alan-ai/alan-sdk-web"
 import { useCart } from '../context/CartContext'
 import storeItems from '../items.json'
+import { useHistory } from 'react-router-dom'
+
 
 const COMMANDS = {
   OPEN_CART: "open-cart",
   CLOSE_CART: "close-cart",
   ADD_ITEM: "add-item",
   REMOVE_ITEM: "remove-item",
-  PURCHASE_ITEMS: "purchase-items"
+  PURCHASE_ITEMS: "purchase-items",
+  CHECKOUT : "check-out"
 }
 
 export default function useAlan() {
   const [alanInstance, setAlanInstance] = useState()
   const{ setShowCartItems, isCartEmpty,addToCart,removeFromCart,cart,checkout } = useCart()
-
+  
+  const history = useHistory();
 
   const openCart = useCallback(() => {
     if(isCartEmpty) {
@@ -73,6 +77,7 @@ export default function useAlan() {
     } else {
       alanInstance.playText("Thank you for shopping with us")
       checkout()
+      history.push('/checkout')
     }
   }, [alanInstance,isCartEmpty, checkout])
 
@@ -83,6 +88,7 @@ export default function useAlan() {
     window.addEventListener(COMMANDS.CLOSE_CART, closeCart)
     window.addEventListener(COMMANDS.ADD_ITEM, additem)
     window.addEventListener(COMMANDS.REMOVE_ITEM, removeitem)
+    window.addEventListener(COMMANDS.PURCHASE_ITEMS, purchase)
     window.addEventListener(COMMANDS.PURCHASE_ITEMS, purchase)
 
 

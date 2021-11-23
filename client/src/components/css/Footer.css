@@ -1,0 +1,25 @@
+.footer {
+
+    display: flex;
+    flex-direction: row;
+    width: '100 %';
+    justify-content: center;
+
+
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 8vh;
+    margin-left: 5vh;
+    margin-top: 5vh;
+
+}
+
+.heart {
+    height: 4vh;
+    width: 4vh;
+    margin-top: -0.5vh;
+}

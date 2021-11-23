@@ -60,7 +60,7 @@ function Login() {
 
     return (
         <>
-            <section className="main" data-testid="mainpage">
+            <section className="main-login" data-testid="mainpage">
                 <h1 className="header">Login to Bitz</h1>
                 {error ?(
                     <h1 className="wrong">Wrong credentials</h1>

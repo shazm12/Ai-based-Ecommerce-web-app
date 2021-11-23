@@ -8,19 +8,20 @@
 .comp_name {
 
     margin-left: 3vh;
-    font-size: 32px;
-    margin-top: 0.5vh;
+    font-size: 33px;
+    margin-top: 1vh;
     color:antiquewhite
 
 }
 .navbar {
-    height: 6vh;
+    height: 8vh;
     display: flex;
     flex-direction: row;
     background: #f953c6;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #b91d73, #f953c6);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #b91d73, #f953c6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     box-shadow: 2px 4px 8px #aaa;
+
 }
 
 .navbar ul {
@@ -28,12 +29,12 @@
     list-style-type: none;
     flex-direction: row;
     justify-content: space-around;
-    gap: 20vh;
-    margin-left: 100vh;
-    margin-top: 2vh;
+    gap: 15vh;
+    margin-left: 90vh;
+    margin-top: 3vh;
     font-weight: bold;
     transition: all 0.5s ease-in-out;
-    font-size: 18px;
+    font-size: 20px;
     color: rgb(19, 16, 16);
     
 

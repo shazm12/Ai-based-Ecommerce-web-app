@@ -34,10 +34,10 @@ function Register() {
     }));
     const classes = useStyles();
 
-    const register = async(e) => {
+    const register = (e) => {
 
         e.preventDefault();
-        await axios.post('/api/auth/register', {
+        axios.post('/api/auth/register', {
             username: name,
             email: email,
             password : password,
@@ -46,7 +46,7 @@ function Register() {
 
         })
         .then(msg => {
-            if(msg.data.success) {
+            if(msg) {
 
                 cookies.set('username', name);
                 cookies.set('email', email);
@@ -55,7 +55,7 @@ function Register() {
 
 
 
-                history.push("/store")
+
             }
         })
         .catch((error) => {
@@ -63,6 +63,7 @@ function Register() {
             setError(true)
 
         })
+        history.push("/store")
     }
 
 

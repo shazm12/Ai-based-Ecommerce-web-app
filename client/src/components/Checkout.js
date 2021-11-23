@@ -5,7 +5,7 @@ import axios from '../util/axios'
 import formatCurrency from "../util/formatCurrency"
 import { useCart } from "../context/CartContext"
 import storeItems from "../items.json"
-
+import Footer from './Footer'
 import { useHistory } from 'react-router-dom';
 
 
@@ -139,6 +139,7 @@ function Checkout() {
                 <button className="submit-bt" onClick={submit}>Place order</button>
             </div>
         </section>
+        <Footer />
 
 
 

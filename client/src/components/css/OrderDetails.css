@@ -55,3 +55,23 @@
 
 
 }
+
+.buttonWrapper {
+
+    justify-content: center;
+    margin-top: 8vh;
+    align-self: center;
+    padding: 10px 15px;
+    background-color: #ed3e49;
+    border-radius:  5px;
+    color: #eee;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.buttonWrapper:hover {
+
+    background-color: #aaa;
+    color: #121212;
+
+}

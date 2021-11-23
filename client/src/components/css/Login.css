@@ -1,10 +1,10 @@
-.main {
+.main-login {
 
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 30vh;
+    margin-top: 25vh;
 }
 
 .header {

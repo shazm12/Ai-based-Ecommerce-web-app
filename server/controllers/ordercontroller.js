@@ -11,7 +11,7 @@ var transporter = nodemailer.createTransport({
       user: 'bitzzcustcare@gmail.com',
       pass: 'bitzz1234'
     }
-  });
+});
 
 const neworder  = (req, res, next) => {
     
@@ -82,10 +82,32 @@ const orderdetails = (req, res, next) => {
 
 }
 
+const cancelOrder = (req, res, next) => {
+
+    const id = req.body.id;
+    Order.deleteOne({_id: id})
+        .then(details => {
+
+            res.status(200).json({
+                message : 'Deleted sucessfully'
+            })
+
+        })
+        .catch(err => {
+            res.status(400).json({
+                'error': err
+            })
+        })
+
+
+
+
+}
+
 
 
 
 
 module.exports = {
-    neworder,orderdetails
+    neworder,orderdetails,cancelOrder
 }

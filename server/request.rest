@@ -70,3 +70,14 @@ Content-Type: application/json
     "username" : "Shamik"
 
 }
+
+
+###
+POST http://localhost:9000/api/order/cancelorder
+Content-Type: application/json
+
+
+{
+    "id" : "6197da6bee82c5677ca3a431"
+
+}
