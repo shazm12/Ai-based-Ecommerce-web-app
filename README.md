@@ -63,4 +63,8 @@ npm start
  - Mridul Vaishishta
 
 
+# Contrubtion Guildines 
+
+Feel free to contrubute to the project by issuing some bug and even by fixing it or suggest some changes for improving the project but before 
+that do not forget to read the guidelines here - [Contribution Guildines.](CONTRIBUTING.md)
 
