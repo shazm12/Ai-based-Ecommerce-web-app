@@ -16,7 +16,7 @@ const port =  process.env.PORT || 9000;
 
 
 //DB Config
-const connection_url  = 'mongodb+srv://user:CoHWXoBCJNxQhIle@cluster0.1esfo.mongodb.net/aidb?retryWrites=true&w=majority';
+const connection_url  = 'YOUR Mongo DB URL Here';
 mongoose.connect(connection_url, {
     useNewUrlParser: true,
     useUnifiedTopology: true
