@@ -52,6 +52,6 @@ The policy also forbids harassing conduct, which includes unwelcome conduct base
 
 ## Reporting Violations
 
-If you feel that someone violated the guidlines in Code Of Conduct or Contributing guidelines,
+If you feel that someone violated the guidelines in Code Of Conduct or Contributing guidelines,
 please do mail me at [berashamik115@gmail.com.](mailto:berashamik115@gmail.com)
 
