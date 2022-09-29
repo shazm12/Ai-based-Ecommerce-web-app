@@ -4,11 +4,14 @@
 [![Build Status](https://travis-ci.org/mysticatea/if-node-version.svg?branch=master)](https://travis-ci.org/mysticatea/if-node-version)
   [![Status](https://img.shields.io/badge/status-active-success.svg)]() 
   [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
- [![GitHub last commit](https://img.shields.io/github/last-commit/HeavyScam/furnitar-back?style=social&logo=git)](https://github.com/shazm12/Ai-based-Ecommerce-web-app)
+ [![GitHub last commit](https://img.shields.io/github/last-commit/shazm12/Ai-based-Ecommerce-web-app?style=social&logo=git)](https://github.com/shazm12/Ai-based-Ecommerce-web-app)
+ 
+So I have built an AI-based Shopping system that uses a chatbot to perform all operations from adding, removing items to proceeding to checkout. This will be a web application with a backend server as well. This project is an attempt to provide the advantages of online shopping to customers of a real shop. It helps to buy the products in the shop anywhere through the internet by using the website. The customer will be provided the service of online shopping and home delivery by using this website application. This system can be implemented in any shop in the locality or to multinational branded shops having retail outlet chains.
 
-AI is being integrated into almost every aspect of our life from our smartphones, homes to transportation systems.AI is being used everywhere today. So we are building an AI-based Shopping system that uses a chatbot to perform all operations from adding, removing items to proceeding to checkout. This will be a web application with a backend server as well. This project is an attempt to provide the advantages of online shopping to customers of a real shop. It helps to buy the products in the shop anywhere through the internet by using the website. The customer will be provided the service of online shopping and home delivery by using this website application. This system can be implemented in any shop in the locality or to multinational branded shops having retail outlet chains. The basic concept of the application is to allow the customer to shop virtually using the Internet and allow customers to buy the items and articles of their desire from the store.
+The web app was made using React, Node, Express, MongoDB and Alan.ai which is platform to build chatbots and integrate with your web and native apps.  I recommend you to go through the [docs](https://alan.app/docs/) before getting started to work on my project.
 
-# Working of the Web App ⚒️
+
+# Preview and Working of the Web App ⚒️
 ![level1dfd](https://user-images.githubusercontent.com/64892076/142622747-9260fa0d-486b-4e02-9d4f-852585c49eef.png)
 
 
@@ -53,18 +56,22 @@ npm install
 npm start
 ```
 
+# Some important point to go through (MUST READ)
+
+1. Most of the issues I will be posting will be related to the client or the frontend side at first.
+2. I will be deploying the final web app with all the commited changes in the end to see how much we have improved the web app from its initial version.
 
 
 
-# Team Members 👨‍💻👩‍💻
 
-- Shamik Bera [@shazm12](https://github.com/shazm12)
+# Maintainer
 
- - Mridul Vaishishta
+- Shamik Bera [@shazm12](https://github.com/shazm12) [email](mailto:shamik.bera2019@vitstudent.ac.in)
+
 
 
 # Contrubtion Guildines 
-
-Feel free to contrubute to the project by issuing some bug and even by fixing it or suggest some changes for improving the project but before 
+1. Join the [discord](https://discord.gg/mq97kSm6) server for queries and more info.
+2. Feel free to contrubute to the project by issuing some bug and even by fixing it or suggest some changes for improving the project but before 
 that do not forget to read the guidelines here - [Contribution Guildines.](CONTRIBUTING.md)
 
