@@ -12,6 +12,12 @@ The web app was made using React, Node, Express, MongoDB and Alan.ai which is pl
 
 
 # Preview and Working of the Web App ⚒️
+
+## Preview of the Web App
+[web-app-preview.webm](https://user-images.githubusercontent.com/64892076/193142474-2c9bca1c-56ae-4895-9f8b-95b6e53c4f6a.webm)
+
+
+## Level 1 DFD Diagram to understand the architecture of the Project
 ![level1dfd](https://user-images.githubusercontent.com/64892076/142622747-9260fa0d-486b-4e02-9d4f-852585c49eef.png)
 
 
@@ -56,6 +62,10 @@ npm install
 npm start
 ```
 
+Make sure in client/src/utils and then in axios.js make the baseURL as url of the Node's Localhost server.
+
+For more in depth setup details go to [Contribution Guidelines.](CONTRIBUTING.md)
+
 # Some important point to go through (MUST READ)
 
 1. Most of the issues I will be posting will be related to the client or the frontend side at first.
@@ -73,5 +83,5 @@ npm start
 # Contrubtion Guildines 
 1. Join the [discord](https://discord.gg/mq97kSm6) server for queries and more info.
 2. To contrubute to the project by issuing some bug and even by fixing it or suggest some changes for improving the project but before 
-that do not forget to read the guidelines here - [Contribution Guildines.](CONTRIBUTING.md)
+that do not forget to read the guidelines here - [Contribution Guidelines.](CONTRIBUTING.md)
 
