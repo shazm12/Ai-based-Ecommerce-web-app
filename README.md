@@ -72,6 +72,6 @@ npm start
 
 # Contrubtion Guildines 
 1. Join the [discord](https://discord.gg/mq97kSm6) server for queries and more info.
-2. Feel free to contrubute to the project by issuing some bug and even by fixing it or suggest some changes for improving the project but before 
+2. To contrubute to the project by issuing some bug and even by fixing it or suggest some changes for improving the project but before 
 that do not forget to read the guidelines here - [Contribution Guildines.](CONTRIBUTING.md)
 
