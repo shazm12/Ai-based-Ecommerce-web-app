@@ -46,15 +46,15 @@ You must have seen a bug or problem you can fix, this is when you open a new iss
 
 - **Step 1:** Navigate to the issues naviagtion button. See below 👇
 
-![issues1](https://user-images.githubusercontent.com/63567230/186288743-ea5b1764-b26c-49f5-a740-766b81680ee7.JPG)
+![issue1](https://user-images.githubusercontent.com/64892076/193137011-1aa60920-4b2c-491e-994e-34940e9dbe6c.png)
 
 - **Step 2:** Scan through the currently opened issues to see if your issue(s) has been listed earlier. See below 👇
 
-![issues2](https://user-images.githubusercontent.com/63567230/186288769-6f0f63a7-27f2-4060-b43e-662de3595d16.JPG)
+![image](https://user-images.githubusercontent.com/64892076/193137122-601202a5-6d81-47ab-b02a-a546deba4746.png)
 
 - **Step 3:** If your issue hasn't been listed yet, click on the New issue button at the top right corner to add your new issue. See below 👇
 
-![issues3](https://user-images.githubusercontent.com/63567230/186288798-28a7e5b1-2f3e-4fa1-9ebb-27fe2220290f.JPG)
+![image2](https://user-images.githubusercontent.com/64892076/193137251-7151b83f-ada7-47d3-ad95-25d42264bf79.png)
 
 - **Step 4:** Time to add your amazing issue. You add the title and a brief description of the issue. For further explanation, images can be added as well. See below 👇
 
