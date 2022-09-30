@@ -127,8 +127,8 @@ const instance =  axios.create({
 Then you are set to work with my project 🎉
 
 
-I have made a dummy test account for to login - 
-Username - test
+I have made a dummy test account for to login :- 
+Username - test,
 Password  - 1234
 
 
