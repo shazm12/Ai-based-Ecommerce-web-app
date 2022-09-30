@@ -64,6 +64,10 @@ npm start
 
 Make sure in client/src/utils and then in axios.js make the baseURL as url of the Node's Localhost server.
 
+I have made a dummy test account for to login - 
+Username - test
+Password  - 1234
+
 For more in depth setup details go to [Contribution Guidelines.](CONTRIBUTING.md)
 
 # Some important point to go through (MUST READ)
