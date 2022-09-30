@@ -126,6 +126,12 @@ const instance =  axios.create({
 
 Then you are set to work with my project 🎉
 
+
+I have made a dummy test account for to login - 
+Username - test
+Password  - 1234
+
+
 Make a new branch. See below 👇
 
 ![branch](https://user-images.githubusercontent.com/63567230/186289255-21b7b9c5-49f8-458a-a941-f558b8744dd0.JPG)
