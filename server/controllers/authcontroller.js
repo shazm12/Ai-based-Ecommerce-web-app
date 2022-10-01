@@ -1,6 +1,7 @@
 const User = require('../models/Users.js')
 const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken')
+const config = require('config')
 const register  = (req, res, next) => {
 
     bcrypt.hash(req.body.password, 10, function(err,hashedPass) {
@@ -59,7 +60,7 @@ const login = (req,res,next) => {
 
                 }
                 if(result) {
-                    let token = jwt.sign({username: user.username}, 'verySecretValue', {expiresIn: '1h'})
+                    let token = jwt.sign({username: user.username}, config.get('jwtSecret'), {expiresIn: '1h'})
                     res.status(200).json({
                         success: "Login successful",
                         token
